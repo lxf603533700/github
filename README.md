@@ -11,5 +11,5 @@ github是一款分布式代码版本管理软件，相对于svn,能够较好的�
   ### 局域网
     gitlab
   ### 外网
-    ![码云](https://gitee.com/)
-    ![github](https://github.com/)
+    [码云](https://gitee.com/)
+    [github](https://github.com/)
