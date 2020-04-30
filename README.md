@@ -18,7 +18,55 @@ github是一款分布式代码版本管理软件，相对于svn,能够较好的�
 
 ## 团队内部协作
  ![image](https://github.com/lxf603533700/github/blob/master/team.png)
-
+  
+  第一步：创建本地库
+  
+  第二步：创建远程库
+  
+  第三步：将本地库推送到远程库【push】
+      
+      0.查看远程库地址
+      
+       git remote -v
+      
+      1.配置远程库地址
+       
+       git remote add origin 远程库地址
+      
+      2.推送  
+      
+       git push origin 分支名 
+  
+  第四步：克隆操作
+      
+      git clone 远程库地址
+      
+      克隆后，完整的将远程库下载到本地、创建origin远程地址、初始化本地库
+  
+    第五步：邀请用户加入团队，用户接受
+  
+    第六步：用户提交代码
+      
+      1.提交到本地库
+      
+      2.push到远程库 git push origin 分支名 
+  
+    第七步：抓取到本地
+        
+        git fetch [远程库地址别名][远程库名]
+        
+    第八步：合并操作
+  
+         git merge [远程库地址别名][远程库名]
+         
+    综合七、八步：
+   
+     git pull [远程库地址别名][远程库名]
+  
+    第九步：解决冲突
+      
+      【方法见分支冲突】
+    
 ## 跨团队协作
  ![image](https://github.com/lxf603533700/github/blob/master/teams.png)
 
